@@ -54,8 +54,11 @@
 
 
 body {
-    margin: 0;
-    background-image: linear-gradient(#FFE7FA #D2B9EB);
+    margin: 2em;
+    background-image: linear-gradient(#D2B9EB, #FFE7FA);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     text-align: center;
 }
 
@@ -84,13 +87,14 @@ body {
 }
 .mid {
   font-family: "Libre Baskerville",Baskerville,"Book Antiqua",Georgia,Times,serif;
-  background-color: #f3efdf;
+  background-color: #FFFAE3;
   flex: 8 0px;
   order: 2;
   font-size: 1.25em;
-  padding: 0 30%;
+  padding: 0 15%;
   text-align: left;
   font-weight: normal;
+  border-radius: 25px;
 }
 .side2 {
   background-color: #383c67;
