@@ -130,3 +130,11 @@ p {
   font-size: 75%;
   color: #71809b;
 }
+
+.test {
+  font-size: 150%;
+}
+
+.test2 {
+  font-size: 100%;
+}
