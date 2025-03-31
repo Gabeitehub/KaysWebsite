@@ -3,7 +3,7 @@
 img {
   width: 100%;
   height: auto;
-  margin:0 0rem;
+  margin:0 0.5rem;
   object-fit: cover;
   flex-grow: 1;
 }
