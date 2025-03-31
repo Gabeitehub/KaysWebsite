@@ -6,6 +6,7 @@ img {
   margin:0 0.5rem;
   object-fit: cover;
   flex-grow: 1;
+  margin-bottom: 1%;
 }
 
 li:last-child {
@@ -59,14 +60,24 @@ body {
   justify-content: space-around;
 
   column-count: auto;
-  column-width: 220px;
-  column-gap: 20px;
+  column-width: 10em;
+  column-gap: 1%;
   max-width: 90vw;
 
   margin: 5%;
   margin-top: 0%;
-  margin-bottom: 0%;
+  
 }
+
+.edit{
+  column-count: 1;
+  max-width: 50vw;
+}
+
+.huh {
+  width: 10px;
+}
+
 
 .side2 {
   background-color: #383c67;
