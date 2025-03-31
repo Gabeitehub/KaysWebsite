@@ -7,12 +7,60 @@ img {
   object-fit: cover;
   flex-grow: 1;
   margin-bottom: 2.5%;
+
+  animation: fadeInAnimation3 ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 li:last-child {
   flex-grow: 10;
 }
 
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+      margin-top: 4em;
+  }
+
+  50% {
+    padding-top:0%;
+    margin-top: 2em;
+}
+
+  100% {
+      opacity: 1;
+      margin-top: 2em;
+  }
+}
+
+@keyframes fadeInAnimation2 {
+  0% {
+      opacity: 0;
+  }
+
+  10% {
+    opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimation3 {
+  0% {
+      opacity: 0;
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
 
 body {
     margin: 2em;
@@ -21,6 +69,10 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
     text-align: center;
+
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .flexUp {
@@ -110,6 +162,10 @@ h2, h3, h4, h5 {
 
 p {
   font-size: 75%;
+
+  animation: fadeInAnimation2 ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .sen-1 {
