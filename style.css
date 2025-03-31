@@ -64,8 +64,8 @@ body {
   column-gap: 0.5%;
   max-width: 90vw;
 
-  margin: 5%;
-  margin-top: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
   
 }
 
@@ -88,6 +88,13 @@ body {
 
 .footer {
   order: 4;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+}
+
+.footer img {
+  max-width:15em;
 }
 
 a {text-decoration: none; color: #383c67 }
