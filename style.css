@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
 
 img {
-  width: 50%;
+  width: 100%;
   height: auto;
+  margin:0 0rem;
+  object-fit: cover;
+  flex-grow: 1;
 }
 
-img + img {
-  margin-left: 2%;
+li:last-child {
+  flex-grow: 10;
 }
+
 
 body {
     margin: 2em;
@@ -29,7 +33,7 @@ body {
 
 .flexUp > * {
   flex: 1 100%;
-  color: #71809b;
+  color: #000000;
 }
 
 .full {
@@ -49,11 +53,19 @@ body {
   color: #000000;
   flex: 8 0px;
   order: 2;
-  padding: 0 10%;
+
   text-align: left;
   font-weight: normal;
-  display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+
+  column-count: auto;
+  column-width: 220px;
+  column-gap: 20px;
+  max-width: 90vw;
+
+  margin: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 .side2 {
@@ -65,20 +77,21 @@ body {
 
 .footer {
   order: 4;
-  background-color: #383c67;
-  color: #fffebb;
-  position: relative;
-  margin-top: -180px;
 }
 
-a:visited { text-decoration: none; color: #fffebb; }
-a:hover { text-decoration: none; color: #fffebb; }
-a:focus { text-decoration: none; color: #fffebb; }
-a:hover, a:active { text-decoration: none; color: #fffebb; }
+a { color: #383c67 }
+a:visited { text-decoration: none; color: #383c67; }
+a:hover { text-decoration: none; color: #afc4db; }
+a:focus { text-decoration: none; color: #afc4db; }
+a:hover, a:active { text-decoration: none; color: #afc4db; }
 
 h2, h3, h4, h5 {
   line-height: 0.5em;
   text-align: center;
+}
+
+p {
+  font-size: 75%;
 }
 
 .sen-1 {
@@ -87,4 +100,15 @@ h2, h3, h4, h5 {
   font-weight: 800;
   font-style: normal;
   font-size: 150%;
+}
+.yeah {
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.yeah2 {
+  padding: 10px;
+  word-wrap: break-word;
+  font-size: 75%;
+  color: #71809b;
 }
