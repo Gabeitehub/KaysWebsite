@@ -90,7 +90,7 @@ body {
   order: 4;
 }
 
-a { color: #383c67 }
+a {text-decoration: none; color: #383c67 }
 a:visited { text-decoration: none; color: #383c67; }
 a:hover { text-decoration: none; color: #afc4db; }
 a:focus { text-decoration: none; color: #afc4db; }
